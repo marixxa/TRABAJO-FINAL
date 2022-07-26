@@ -16,22 +16,26 @@ h3{font-size: 2em;
 p{font-size: 1.3em;}
 ul{list-style: none;}
 
-button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.952);
-    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.952);
-    color:white;
-    background-color: red;
-}
 
-button:hover{
+#niveles a{
+    display: block;
+    width: 80px;
+    background-color: red;
+    color: yellow;
+    border-radius:10px ;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
+}
+#niveles a:hover{
     background-color: rgb(238, 215, 9);
     box-shadow: 2px 2px 10px  red;
     color: black;
 }
+
 .container{
     max-width: 1400px;
     margin: auto;
@@ -69,6 +73,7 @@ header a{
     font-weight: bold;
     color: black;
 }
+
 /*cambiando de color los menues al apoyarse*/
 header a:hover{
     text-shadow: 2px 2px 5px yellow;
@@ -88,7 +93,7 @@ header a:hover{
     background-size: cover;
     background-position: center center;
 
-    background-image:url(/imagenes/mejorfrenteprimaria.jpeg)
+    background-image:url(../imagenes/mejorfrenteprimaria.jpeg)
 
     
 
@@ -137,16 +142,16 @@ background-size: cover;
 
 
 .carta:first-child{
-background-image:url(/imagenes/frentejardin1.jpeg);
+background-image:url(../imagenes/frentejardin1.jpeg);
 
 }
 .carta:nth-child(2){
-background-image:url(/imagenes/mejorfrenteprimaria.jpeg);
+background-image:url(../imagenes/mejorfrenteprimaria.jpeg);
 
 }
 
 .carta:nth-child(3){
-background-image:url(/imagenes/frentesecundaria.jpeg);
+background-image:url(../imagenes/frentesecundaria.jpeg);
 
 } 
 
@@ -219,6 +224,14 @@ align-items: flex-end;
     position: fixed;
     width: 100%;
 }
+#video{
+    margin: 0 auto;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+
 /*divido la seccion en 2para poner el logo de un lado y la imagen de otro*/
     #nuestra-historia .container{
       display: flex;
@@ -227,7 +240,7 @@ align-items: flex-end;
     }
 /*pongo la imagen en el contenedor*/
     #nuestra-historia .img-container{
-        background-image: url(/imagenes/logoescuela.jpg);
+        background-image: url(../imagenes/logoescuela.jpg);
         background-size: cover;
         background-position: center center;
         height: 300px;

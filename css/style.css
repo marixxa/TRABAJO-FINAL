@@ -100,6 +100,7 @@ header a:hover{
 }
 #titulo h1{
     color: white;
+    text-shadow: 2px 2px 5px red;
 }
 #titulo button{
 font-size:  1.75em; ;
@@ -109,6 +110,23 @@ font-size:  1.75em; ;
 .color-acento{
     color: rgb(226, 43, 43);
 }
+#video{
+    padding: 50px;
+    text-align: center;
+    background-color: darkgray;
+
+    
+}
+#video:hover{
+    border-color: red;
+    background-color: cornflowerblue;
+}
+
+.box-video{
+    width: 200px;
+    height: 200px;
+}
+
 
 #nuestra-historia .container{
     text-align: center;
@@ -183,9 +201,7 @@ background-image:url(../imagenes/frentesecundaria.jpeg);
     font-size: 1em;
 
 }
-#final button{
-    font-size: 5vw;
-}
+
 
 footer{
     background-color: rgb(230 230 230);
@@ -226,9 +242,9 @@ align-items: flex-end;
 }
 #video{
     margin: 0 auto;
-    padding: 50px;
-    width: 200px;
-    height: 200px;
+    padding-top: 40px;
+    border: 3px solid yellow;
+    
 }
 
 
@@ -245,6 +261,7 @@ align-items: flex-end;
         background-position: center center;
         height: 300px;
         width: 300px;
+        
     }
 
     #nuestra-historia .texto-imagen{

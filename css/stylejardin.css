@@ -6,37 +6,41 @@
    main{
     margin: auto;
     overflow:auto;
+    
 }
+body{
+    background-color: rgba(169, 169, 169, 0.514); 
+}
+#nuestra-historia{
+    background-color: rgba(169, 169, 169, 0.514);
+}
+li{
 
-
-
+}
 
 .contenedor{
    /* height: 120px; */
-    background-color:rgba(236, 16, 16, 0.836);
+    background-color:rgba(236, 16, 16, 0.836);;
     display: grid;
     flex-direction:column ; 
     align-items: center;
     grid-template-columns: 80px 1fr 80px  ;
     justify-content: space-between;
-    grid-template-rows: 1fr 1fr
 
 }
-.box nav{
-grid-row: 2/3;
-   grid-column: 1/4;
-   background-color: aquamarine;
-}
-
-
 
 .container{
     max-width: 1400px;
     margin: 0 auto;
 }
 #nuestra-historia .container{
-    text-align: center;
-    padding: 80px 15px;
+    background-image: url(../imagenes/arcoiris.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align:center
+    
 }
 
 .logo1{
@@ -52,7 +56,7 @@ padding: 0;
     text-align: center;
     font-size: 1em;
     /*padding-top: 20px;*/
-    background-color: rgba(236, 16, 16, 0.836);
+    background-color:rgba(236, 16, 16, 0.836);
     margin: 0;
     text-shadow: 5px 5px 5px black;
     
@@ -67,7 +71,7 @@ height: 120px;*/
 }
 
 .box2{
-    background-color: beige;
+    background-color:aliceblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid black;
@@ -86,7 +90,7 @@ aside{
 .box-aside{
     text-align: center;
     margin:0;
-    background-color:khaki
+    background-color:bisque
 }
 /*.box-aside img-aside{
     object-fit: cover;
@@ -109,6 +113,32 @@ aside{
     text-align: center;
     background-color: rgb(214, 209, 209);
 
+}
+
+.boton-volver a{
+    display: block;
+    text-decoration: none;
+    border-radius: 5em;
+    background-color: cornflowerblue;
+    width: 120px;
+    color: black;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+i{
+    font-size: 2em;
 }
 
 p::first-letter{

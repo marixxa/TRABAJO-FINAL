@@ -10,7 +10,7 @@ html{
     box-sizing: border-box;
 }
 h1{font-size: 3.5em;}
-h2{font-size: 2.7em;}
+h2{font-size: 2.5em;}
 h3{font-size: 2em;}
 p{font-size: 1.3em;}
 i{
@@ -138,7 +138,8 @@ header a:hover{
 
 #nuestra-historia .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 100px 12px;
+    
 }
 #niveles{
     background-color: rgba(0, 0, 0, 0.884);
@@ -374,8 +375,11 @@ align-items: flex-end;
         background-image: url(../imagenes/Ezequiel-Parodi.jpg);
         background-size: cover;
         background-position: center center;
-        height: 300px;
+     
+        height: 400px;
         width: 300px;
+        margin-top: 60px;
+    
         
     }
 

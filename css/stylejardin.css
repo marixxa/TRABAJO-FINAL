@@ -89,16 +89,7 @@ aside{
     margin:0;
     background-color:bisque
 }
-/*.box-aside img-aside{
-    object-fit: cover;
-}*/
 
-
-/*.formulario{
-    height: 500px;
-    grid-column: 1/2;
-    border: 2px solid black;
-}*/
 .box3{
     display: grid;
     grid-template-columns:1fr ;

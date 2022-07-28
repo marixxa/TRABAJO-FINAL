@@ -3,11 +3,34 @@
     padding: 0;
     margin: 0
    } 
+
+   body{
+    background-color: rgb(214, 209, 209);
+   }
    main{
     margin: auto;
     overflow:auto;
+    background-image:url(../imagenes/mejorfrenteprimaria.jpeg);
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+    
 }
-
+main h2{
+    padding-top: 15px;
+    color: red;
+    text-shadow: 2px 2px 5px yellow;
+}
+main p{
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px yellow;;
+    
+}
+i{
+    font-size: 1.5em;
+}
 
 .contenedor{
    /* height: 120px; */
@@ -27,6 +50,7 @@
 #nuestra-historia .container{
     text-align: center;
     padding: 80px 15px;
+   
 }
 
 .logo1{
@@ -51,8 +75,7 @@ padding: 0;
 .logo2{
 grid-column: 3/4;
 border: 2px solid black;
-/*width: 120px;
-height: 120px;*/
+
 
 }
 
@@ -66,28 +89,23 @@ main{
     
     grid-column: 1/3;
     border: 2px solid black;
-    max-height: 250px;
+    max-height: 350px;
 
 }
 aside{
     grid-column: 3/4;
-    background-color: aqua;
+    background-color: khaki;
 }
 .box-aside{
     text-align: center;
     margin:0;
     background-color:khaki
 }
-/*.box-aside img-aside{
-    object-fit: cover;
-}*/
+.box-aside h3{
+    padding-top: 20px;
+}
 
 
-/*.formulario{
-    height: 500px;
-    grid-column: 1/2;
-    border: 2px solid black;
-}*/
 .box3{
     display: grid;
     grid-template-columns:1fr ;
@@ -99,6 +117,18 @@ aside{
     text-align: center;
     background-color: rgb(214, 209, 209);
 
+}
+.boton-volver a{
+    display: block;
+    text-decoration: none;
+    border-radius: 5em;
+    background-color: cornflowerblue;
+    width: 120px;
+    color: black;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 20px;
+    
 }
 
 p::first-letter{

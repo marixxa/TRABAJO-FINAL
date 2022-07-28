@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     font-family: roboto;
+    background-color: rgba(169, 169, 169, 0.438);
 }
 html{
     scroll-behavior: border-box;
@@ -12,7 +13,6 @@ h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.3em;}
-ul{list-style: none;}
 i{
     font-size: 30px;
     padding: 20px;
@@ -65,7 +65,7 @@ header .logo{
     color:red
 
 }
-
+/*centrar horizontalmente con align*/
 header .container{
 display: flex;
 flex-direction: column;
@@ -110,7 +110,6 @@ header a:hover{
     background-image:url(../imagenes/frenteclub.jpeg)
 
     
-
 }
 #titulo h1{
     color: white;
@@ -125,7 +124,6 @@ header a:hover{
     text-align: center;
     background-color: darkgray;
 
-    
 }
 #video:hover{
     border-color: red;
@@ -192,11 +190,26 @@ background-image:url(../imagenes/frentesecundaria.jpeg);
     padding: 250px 12px;
 
 }
-#caracteristicas li{
-    margin: 12px 0px;
-    font-weight: bold; 
-    text-decoration: none;
+.box-form{
+    background-color: bisque;
+    border: 2px solid black;
+    background-image:linear-gradient(
+        0deg,
+    rgba(0, 0, 0, 0.178),
+    rgba(0,0,0,0.178)
+    )
+    ,url(..//imagenes/logoescuela.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 5px white;
+
 }
+.boton{
+    margin-bottom: 50px;
+}
+
 
 .autoridades{
     display: grid;
@@ -205,16 +218,18 @@ background-image:url(../imagenes/frentesecundaria.jpeg);
     background-color: rgba(0, 0, 0, 0.329);
     text-align: center;
     font-size: 10px;
+    color: black;
+    
+}
+.autoridades .carta1,.carta2,.carta3,.carta4{
+    width: 80%;
+    height: 80%;
     padding: 20px;
-    
+    margin: 50px;
+    background-position: center center;
+    background-size: cover;
 }
-.carta1 .carta2 .carta3 .carta4{
-    width: 150px;
-    height: 150px;
-    border-radius: 2em;
-    border: 2px solid white;
-    
-}
+
 .carta1{
     grid-template-columns: 1/2;
     background-image: url(../imagenes/Ezequiel-parodi.jpg);
@@ -237,11 +252,8 @@ background-image:url(../imagenes/frentesecundaria.jpeg);
 .carta4{
     grid-template-columns: 4/5;
     background-image: url(../imagenes/walter.jpeg);
-    object-fit: cover;
+   
 }
-
-
-
 
 
 footer{
@@ -264,14 +276,22 @@ align-items: flex-end;
 #final div{
     /*border: 2px solid white;*/
     border-radius: 1em;
-    box-shadow: 3px 3px 7px grey;
+    box-shadow: 3px 3px 7px yellow;
 }
 
 #final{
     background-color: rgba(226, 43, 43, 0.76);
     text-align: center;
+    
 }
-
+#final h3{
+    font-size:30px ;
+    margin-top: 0;
+    text-align:unset;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    
+}
 
 
 @media(min-width:750px){
@@ -298,6 +318,7 @@ align-items: flex-end;
     margin: 0 auto;
     padding-top: 40px;
     border: 3px solid yellow;
+    width: 80%;
     
 }
 
@@ -347,7 +368,7 @@ align-items: flex-end;
 .autoridades{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
 
 }
 #final .carta1,.carta2,.carta3,.carta4{

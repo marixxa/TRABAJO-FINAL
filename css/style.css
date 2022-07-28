@@ -14,9 +14,9 @@ h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.3em;}
 i{
-    font-size: 30px;
-    padding: 20px;
-    margin: 0 auto;
+    font-size: 2em;
+    /*padding: 20px;
+    margin: 0 auto;*/
 }
 
 #niveles h3{

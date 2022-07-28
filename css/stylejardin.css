@@ -14,13 +14,10 @@ body{
 #nuestra-historia{
     background-color: rgba(169, 169, 169, 0.514);
 }
-li{
-
-}
 
 .contenedor{
    /* height: 120px; */
-    background-color:rgba(236, 16, 16, 0.836);;
+    background-color:rgba(236, 16, 16, 0.836);
     display: grid;
     flex-direction:column ; 
     align-items: center;
